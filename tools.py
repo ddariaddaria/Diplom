@@ -6,7 +6,7 @@ import pymorphy2
 #?
 morph = pymorphy2.MorphAnalyzer()
 
-#splitting skills, whick like 'c/c++'
+#splitting skills, which like 'c/c++'
 def split_skills(skills_list, not_to_split):
     skills_list_new = []
     for skill in skills_list:
@@ -29,7 +29,7 @@ def clean_text(skill, not_to_split):
     skill = re.sub(r'1c', r'1с', skill)
     skill = re.sub(r'1[\s][сc]', r'1с', skill)
     skill = re.sub('quot', '', skill)
-    skill = re.sub('c++', 'c+', skill)
+    skill = re.sub('\++', '+', skill)
     if re.search('1с', skill) == None:
         skill = re.sub(r'[0-9]', '', skill)
     else:
