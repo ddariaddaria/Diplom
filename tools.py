@@ -37,6 +37,8 @@ def clean_text(skill, not_to_split):
     res = [el for el in not_to_split if(el in skill)]
     if bool(res) == False:
         skill = re.sub(r'[^\w\s+]', ' ', skill).strip()
+    else:
+        skill = re.sub(r'[^\w\s/]', ' ', skill).strip()
     skill = re.sub(r'\s+', ' ', skill)
     return skill
 
