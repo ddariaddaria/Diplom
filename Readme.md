@@ -5,4 +5,4 @@
 + Создание словаря для выделения навыков на основе поля key_skills
 + Выделение навыков из текстов + подсчет частоты навыков
 + Классификация вакансий (часть вакансий были отнесены к таким категориям как "продуктовый аналитик", "бизнес-аналитик" и др., но большая часть были помечены как "аналитик", поэтому был построен классификатор на основе части размеченных данных, чтобы определить болеею точную категорию для "аналитиков")
-+ Создание дашборда в [Tableau](https://public.tableau.com/views/HeadHunter_AnalysisofVacansiesforAnalysts_Diplom/sheet17?:language=en-US&:display_count=n&:origin=viz_share_link)
++ Создание дашборда в [Tableau](https://public.tableau.com/views/HeadHunter_AnalysisofVacansiesforAnalysts_Diplom/sheet6?:language=en-US&:display_count=n&:origin=viz_share_link)
